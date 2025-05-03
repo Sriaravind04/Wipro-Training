@@ -26,3 +26,15 @@ VALUES
 (103,3,3,'2024-12-10'),
 (104,1,1,'2024-12-15'),
 (105,4,2,'2024-12-15');
+
+//here we need to execute from two table so using inner join and also we adding a new column for totalamount.
+
+SELECT 
+	Orders.OrderID,
+	Products.ProductName,
+	Orders.Quantity,
+	Products.Price,
+	(Orders.Quantity * Products.Price) AS TotalAmount,
+	Orders.OrderDate
+FROM Orders
+INNER JOIN Products ON Orders.ProductID = Products.ProductID;
