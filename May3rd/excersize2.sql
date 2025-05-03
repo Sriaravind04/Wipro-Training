@@ -1,1 +1,16 @@
-INSERT INTO EMPLOYEES
+INSERT INTO EMPLOYEES (
+    INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, Salary, HireDate)
+VALUES
+(1,'AYUSH','MHATRE','BATTING',15000,'3-04-2025'),
+(2,'SHEIK','RASHEED','BATTING',20000,'2-04-2025'),
+(3,'RAVI','JADEJA','ALL ROUNDER',30000,'1-03-2025'),
+(4,'MS','DHONI','WICKETKEEPER',40000,'4-02-2025'),
+(5,'RUTURAJ','GAIKWAD','BATTING',50000,'4-03-2025');
+
+)
+UPDATE Employees
+SET Department = 'bowling'
+WHERE EmployeeID = 3;
+
+DELETE FROM Employees 
+WHERE Salary < 20000;
