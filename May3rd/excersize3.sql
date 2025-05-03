@@ -38,3 +38,14 @@ SELECT
 	Orders.OrderDate
 FROM Orders
 INNER JOIN Products ON Orders.ProductID = Products.ProductID;
+
+//in left join everything will be joined together even not primary key is not same
+
+SELECT 
+	Products.ProductID,
+	Products.ProductName,
+	Orders.OrderID,
+	Orders.Quantity,
+	Orders.OrderDate
+FROM Products
+LEFT JOIN Orders ON Products.ProductID = Orders.ProductID;
