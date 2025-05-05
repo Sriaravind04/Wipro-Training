@@ -32,3 +32,11 @@ SELECT FirstName, UPPER(FirstName) AS UpperName FROM Students;
 SELECT FirstName, DATEDIFF(YEAR, DOB,GETDATE()) AS Age FROM Students;
 
 alary,-3) AS RoundedSalary FROM Employees;
+
+SELECT COUNT(*) AS TotalStudents FROM Students;
+
+SELECT AVG(Marks) AS AverageMarks FROM Students;
+
+SELECT Department, MAX(Salary) AS HighestSalary
+FROM Employees
+GROUP BY Department;
