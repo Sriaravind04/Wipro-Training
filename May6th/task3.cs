@@ -1,27 +1,19 @@
-using System;
+using system;
 class Program
 {
-    static int largest(int[] arr, int index, int l, int secondlarge)
+    public static void Main(string[] args)
     {
-        if (index == arr.Length) return secondlarge;
-        int curr = arr[index];
-        if (curr > l)
+        int[] arr = new int[5];
+        Console.WriteLine("Enter the 5 arr element: ");
+        for(int i=0;i<arr.Length;i++)
         {
-            secondlarge = l;
-            l= curr;
-
+            arr[i] = int.Parse(Console.ReadLine());
         }
-        else if (curr > secondlarge && curr != l)
-        {
-            secondlarge = curr;
-
-        }
-        return largest(arr, index, l, secondlarge);
+        Mehtod(arr);
     }
-    static void Main()
+    public static void Method(int[] arr)
     {
-        int[] num = { 10,25,30,5,60 };
-        int secondlarge = largest(num, 0, int.MinValue, int.MinValue);
-        Console.WriteLine(secondlarge);
+        Array.Sort(arr);
+        Console.WriteLine("the 2nd Largest element : "+ arr[arr.Lemgth -2]);
     }
 }
