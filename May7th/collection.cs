@@ -66,3 +66,33 @@ class Program
         Console.Read();
     }
 }
+
+//contains
+using System.Collections;
+class Program
+{
+    static void Main()
+    {
+        ArrayList list = new ArrayList();
+        list.Add("apple");
+        list.Add(42);
+        list.Add(3.14);
+
+        if (list.Contains("apple"))
+        {
+            Console.WriteLine("found");
+
+        }
+        else {
+            Console.WriteLine("not found");
+        }
+
+
+
+            foreach (var item in list)
+            {
+                Console.WriteLine(item);
+            }
+        Console.Read();
+    }
+}
