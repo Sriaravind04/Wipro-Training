@@ -1,3 +1,5 @@
+using System;
+class Program
 {
     static void Main() {
         Console.WriteLine("Enter the string input : ");
@@ -7,8 +9,17 @@
     }
     static void answer(string[] splits)
     {
-        for (int i = 0; i < splits.Length; i++) {
-            splits[i].ToCharArray();
+        int maxLength = 0;
+        string longestWord = "";
+        foreach (string word in splits)
+        {
+            int wordLength = word.Length;
+            if (wordLength > maxLength)
+            {
+                maxLength = wordLength;
+                longestWord = word;
+            }
         }
+        Console.WriteLine(longestWord);
     }
 }
