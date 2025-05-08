@@ -27,3 +27,20 @@ class Program
         }
     }
 }
+
+using System;
+using System.Collections.Generic;
+
+class Program
+{ 
+    static void Main()
+    {
+        List<int> numbers = new List<int> { 20, 40, 60, 80, 100 };
+
+        int index = numbers.IndexOf(60);
+        Console.WriteLine(index);
+
+        bool contains = numbers.Contains(40);
+        Console.WriteLine(contains);
+    }
+}
