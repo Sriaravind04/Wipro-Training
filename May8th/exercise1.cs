@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+
 class employee {
     public int ID { get; set; }
 public string Name { get; set; }
@@ -16,9 +17,9 @@ class Program
         new employee { ID = 4, Name = "vel" };
         new employee { ID = 5, Name = "dhoni" };
 
-        employees.Remove(e.Name = "alan");
+        employees.RemoveAll(e => e.Name == "alan");
 
-        if (e.Name.contains("vel") {
+        if (employees.Any(e => e.Name.Contains("vel"))) {
             Console.WriteLine("found");
         }
         else
@@ -30,5 +31,6 @@ class Program
         foreach (employee e in employees) { 
             Console.WriteLine(e.Name);
         }
+   
     }
 }
