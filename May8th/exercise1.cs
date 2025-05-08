@@ -16,6 +16,19 @@ class Program
         new employee { ID = 4, Name = "vel" };
         new employee { ID = 5, Name = "dhoni" };
 
-        employees.Remove("alan");
+        employees.Remove(e.Name = "alan");
+
+        if (e.Name.contains("vel") {
+            Console.WriteLine("found");
+        }
+        else
+        {
+            Console.WriteLine("not found");
+
+        }
+
+        foreach (employee e in employees) { 
+            Console.WriteLine(e.Name);
+        }
     }
 }
