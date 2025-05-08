@@ -11,11 +11,11 @@ class Program
     {
         List<employee> employees = new List<employee>();
 
-        new employee { ID = 1, Name = "ashok" };
-        new employee { ID = 2, Name = "alan" };
-        new employee { ID = 3, Name = "karthick" };
-        new employee { ID = 4, Name = "vel" };
-        new employee { ID = 5, Name = "dhoni" };
+        employees.Add(new employee { ID = 1, Name = "ashok" });
+        employees.Add(new employee { ID = 2, Name = "alan" });
+        employees.Add(new employee { ID = 3, Name = "karthick" });
+        employees.Add(new employee { ID = 4, Name = "vel" });
+        employees.Add(new employee { ID = 5, Name = "dhoni" });
 
         employees.RemoveAll(e => e.Name == "alan");
 
