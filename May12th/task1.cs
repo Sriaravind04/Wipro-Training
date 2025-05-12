@@ -2,10 +2,10 @@ using System;
 
 interface ICalculator
 { 
-    void Add(int a,int b);
-    void Subtract(int a,int b);
-    void Multiply(int a,int b);
-    void Divide(int a,int b);
+    int Add(int a,int b);
+    int  Subtract(int a,int b);
+    int  Multiply(int a,int b);
+    int Divide(int a,int b);
 }
 
 class SimpleCalculator : ICalculator
@@ -29,9 +29,9 @@ class Program
     static void Main()
     { 
         ICalculator calculator = new SimpleCalculator();
-        calculator.Add(1, 2);
-        calculator.Subtract(1, 2);
-        calculator.Multiply(1, 2);
-        calculator.Divide(1, 2);
+       Console.WriteLine( "add : "+calculator.Add(1, 2));
+        Console.WriteLine("subtract: "+calculator.Subtract(1, 2));
+        Console.WriteLine("multiply: "+calculator.Multiply(1, 2));
+        Console.WriteLine("divide: "+calculator.Divide(1, 2));
     }
 }
