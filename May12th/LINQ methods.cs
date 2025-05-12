@@ -32,5 +32,20 @@ class Program
      foreach(string itenm in query)
          Console.WriteLine(itenm);
      Console.Read();
+
  }
+ //another method
+private static void UsingLINQFunctions(string[] names) { 
+    Func<string, bool> filter = s => s.Length == 5;
+    Func<string, string> extract = s => s;
+    Func<string, string> project = s => s.ToUpper();
+
+    IEnumerable<string> query = names.Where(filter)
+                                      .OrderBy(extract)
+                                      .Select(project);
+
+    foreach (string itenm in query)
+        Console.WriteLine(itenm);
+    Console.Read();
+}
 }
