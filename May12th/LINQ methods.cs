@@ -48,4 +48,27 @@ private static void UsingLINQFunctions(string[] names) {
         Console.WriteLine(itenm);
     Console.Read();
 }
+ private static void UsingAnonymousMethods(string[] names) {
+     Func<string, bool> filter = delegate (string s)
+     {
+         //more lines of code
+         return s.Length == 5;
+     };
+     Func<string, string> extract = delegate (string s)
+     {
+         return s;
+     };
+
+     Func<string, string> project = delegate (string s)
+     {
+         return s.ToUpper();
+     };
+
+     IEnumerable<string> query = names.Where(filter)
+                                      .OrderBy(extract)
+                                      .Select(project);
+
+     foreach(string itenm in query)
+         Console.WriteLine(itenm);
+ }
 }
