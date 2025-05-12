@@ -23,4 +23,14 @@ class Program
 
         Console.Read();
     }
+     private static void UsingLINQExtensions(string[] names) {
+     IEnumerable<string> query = names
+                                 .Where(s => s.Length == 5)
+                                 .OrderBy(s => s)
+                                 .Select(s=> s.ToUpper());
+
+     foreach(string itenm in query)
+         Console.WriteLine(itenm);
+     Console.Read();
+ }
 }
