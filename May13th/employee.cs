@@ -42,7 +42,7 @@ using System.Threading.Tasks;
             Employee[] teenagersEmployees = EmployeeArray.Where(s=>s.Age > 12 && s.Age< 20).ToArray();
 
             //Use LINQ to find first Employee whose name is Bill
-            Employee bill = EmployeeArray.Where(s => s.EmployeeName == "BIll").FirstOrDefault();
+            Employee bill = EmployeeArray.Where(s => s.EmployeeName == "Bill").FirstOrDefault();
 
             //Use LINQ to find Employee whose EmployeeID is 5
             Employee Employee5 = EmployeeArray.Where(s => s.EmployeeID == 5).FirstOrDefault();
