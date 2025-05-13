@@ -37,8 +37,8 @@ class Program
         payment.ProcessPayment(1500.50m);
 
         //Paypal payment
-        payment = new PayPayPayment();
-        payment.ProcessPayment(2500.75m);
+        payment2 = new PayPayPayment();
+        payment2.ProcessPayment(2500.75m);
     }
 
 
