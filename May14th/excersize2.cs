@@ -10,17 +10,28 @@ interface IBankAccount {
     void CheckBalance();
 }
 class SavingsAccount :IBankAccount {
+    private double balance = 0;
+
     public void Deposit(double amount) {
+        balance += amount;
         Console.WriteLine("your deposit amount is " + amount);
     }
-    public void Withdraw(double amount) { Console.WriteLine("your withdraw amount is "+amount); }
+    public void Withdraw(double amount) { 
+        balance -= amount;
+        Console.WriteLine("your withdraw amount is "+amount); }
     
-    public void CheckBalance() { Console.WriteLine("your balance is "); }
+    public void CheckBalance() { Console.WriteLine("your balance is "+balance); }
 }
 class CurrentAccount : IBankAccount {
-    public void Deposit(double amount) { Console.WriteLine("your current deposit amount is " + amount); }
-    public void Withdraw(double amount) { Console.WriteLine("your withdraw amount is " + amount); }
-    public void CheckBalance() { Console.WriteLine("your account balance is "); }
+    private double balance = 0;
+
+    public void Deposit(double amount) { 
+        balance += amount;
+        Console.WriteLine("your current deposit amount is " + amount); }
+    public void Withdraw(double amount) {
+        balance -= amount;
+        Console.WriteLine("your withdraw amount is " + amount); }
+    public void CheckBalance() { Console.WriteLine("your account balance is "+balance); }
 
 }
 namespace ConsoleApp5
@@ -30,7 +41,7 @@ namespace ConsoleApp5
         static void Main(string[] args) { 
            
 
-            IBankAccount account2 = new SavingsAccount();
+           IBankAccount account2 = new SavingsAccount();
             account2.Deposit(20000);
             account2.Withdraw(500);
             account2.CheckBalance();
