@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\WebApplication4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84FD0BD3-C8EB-49D4-A422-A298C2F65F04}|WebApplication4\\WebApplication4.csproj|c:\\users\\admin\\source\\repos\\webapplication4\\webapplication4\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84FD0BD3-C8EB-49D4-A422-A298C2F65F04}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84FD0BD3-C8EB-49D4-A422-A298C2F65F04}|WebApplication4\\WebApplication4.csproj|c:\\users\\admin\\source\\repos\\webapplication4\\webapplication4\\migrations\\20250515053726_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84FD0BD3-C8EB-49D4-A422-A298C2F65F04}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\migrations\\20250515053726_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84FD0BD3-C8EB-49D4-A422-A298C2F65F04}|WebApplication4\\WebApplication4.csproj|c:\\users\\admin\\source\\repos\\webapplication4\\webapplication4\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84FD0BD3-C8EB-49D4-A422-A298C2F65F04}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250515053726_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication4\\WebApplication4\\Migrations\\20250515053726_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WebApplication4\\Migrations\\20250515053726_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication4\\WebApplication4\\Migrations\\20250515053726_InitialCreate.cs",
+              "RelativeToolTip": "WebApplication4\\Migrations\\20250515053726_InitialCreate.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T05:37:26.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication4\\WebApplication4\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "WebApplication4\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication4\\WebApplication4\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "WebApplication4\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T05:36:17.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication4\\WebApplication4\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "WebApplication4\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication4\\WebApplication4\\Models\\Student.cs",
+              "RelativeToolTip": "WebApplication4\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T05:34:16.328Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
