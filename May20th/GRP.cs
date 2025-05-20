@@ -54,7 +54,7 @@ namespace ConsoleApp9
                 int mid = (left + right) / 2;
                 if (arr[mid] == key)
                 {
-                    resu 
+                    resu
                 }
             }
         }

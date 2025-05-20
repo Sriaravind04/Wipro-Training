@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\WebApplication10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A031E15-D358-4654-B032-78960D58E027}|WebApplication10\\WebApplication10.csproj|c:\\users\\admin\\source\\repos\\webapplication10\\webapplication10\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A031E15-D358-4654-B032-78960D58E027}|WebApplication10\\WebApplication10.csproj|solutionrelative:webapplication10\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\source\\repos\\WebApplication10\\WebApplication10\\Migrations\\20250520034914_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication10\\Migrations\\20250520034914_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A031E15-D358-4654-B032-78960D58E027}|WebApplication10\\WebApplication10.csproj|c:\\users\\admin\\source\\repos\\webapplication10\\webapplication10\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A031E15-D358-4654-B032-78960D58E027}|WebApplication10\\WebApplication10.csproj|solutionrelative:webapplication10\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A031E15-D358-4654-B032-78960D58E027}|WebApplication10\\WebApplication10.csproj|c:\\users\\admin\\source\\repos\\webapplication10\\webapplication10\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A031E15-D358-4654-B032-78960D58E027}|WebApplication10\\WebApplication10.csproj|solutionrelative:webapplication10\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication10\\WebApplication10\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication10\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication10\\WebApplication10\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication10\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T05:13:20.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250520034914_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication10\\WebApplication10\\Migrations\\20250520034914_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WebApplication10\\Migrations\\20250520034914_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication10\\WebApplication10\\Migrations\\20250520034914_InitialCreate.cs",
+              "RelativeToolTip": "WebApplication10\\Migrations\\20250520034914_InitialCreate.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwAoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:49:14.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication10\\WebApplication10\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "WebApplication10\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication10\\WebApplication10\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "WebApplication10\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:48:45.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication10\\WebApplication10\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "WebApplication10\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication10\\WebApplication10\\Models\\Employee.cs",
+              "RelativeToolTip": "WebApplication10\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:46:20.764Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
