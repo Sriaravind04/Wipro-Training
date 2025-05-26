@@ -19,14 +19,14 @@ namespace ConsoleApp14
         {
             List<Student> students = new List<Student>
         {
-            new Student { Name = "John", Marks = 85, Grade = "A" },
-            new Student { Name = "Glen", Marks = 89, Grade = "A" },
-            new Student { Name = "Paul", Marks = 75, Grade = "B" },
-            new Student { Name = "Rajiv", Marks = 95, Grade = "A" },
-            new Student { Name = "Aditya", Marks = 88, Grade = "A" },
-            new Student { Name = "Midun", Marks = 65, Grade = "C" },
-            new Student { Name = "Thomas", Marks = 74, Grade = "B" },
-            new Student { Name = "Julia", Marks = 66, Grade = "C" },
+            new Student { Name = "sri", Marks = 90, Grade = "A" },
+            new Student { Name = "aravind", Marks = 91, Grade = "A" },
+            new Student { Name = "shyam", Marks = 75, Grade = "B" },
+            new Student { Name = "sanjai", Marks = 95, Grade = "A" },
+            new Student { Name = "jenish", Marks = 88, Grade = "A" },
+            new Student { Name = "joel", Marks = 65, Grade = "C" },
+            new Student { Name = "jeffery", Marks = 74, Grade = "B" },
+            new Student { Name = "Joel", Marks = 66, Grade = "C" },
             new Student { Name = "Tim", Marks = 57, Grade = "D" },
             new Student { Name = "Phil", Marks = 92, Grade = "A" },
         };
