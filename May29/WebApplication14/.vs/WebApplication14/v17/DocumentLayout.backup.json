@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\WebApplication14\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2960B850-6D04-4F79-A0EA-10C87C87E1D8}|WebApplication14\\WebApplication14.csproj|c:\\users\\admin\\source\\repos\\webapplication14\\webapplication14\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2960B850-6D04-4F79-A0EA-10C87C87E1D8}|WebApplication14\\WebApplication14.csproj|solutionrelative:webapplication14\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2960B850-6D04-4F79-A0EA-10C87C87E1D8}|WebApplication14\\WebApplication14.csproj|c:\\users\\admin\\source\\repos\\webapplication14\\webapplication14\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2960B850-6D04-4F79-A0EA-10C87C87E1D8}|WebApplication14\\WebApplication14.csproj|solutionrelative:webapplication14\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2960B850-6D04-4F79-A0EA-10C87C87E1D8}|WebApplication14\\WebApplication14.csproj|c:\\users\\admin\\source\\repos\\webapplication14\\webapplication14\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2960B850-6D04-4F79-A0EA-10C87C87E1D8}|WebApplication14\\WebApplication14.csproj|solutionrelative:webapplication14\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2960B850-6D04-4F79-A0EA-10C87C87E1D8}|WebApplication14\\WebApplication14.csproj|c:\\users\\admin\\source\\repos\\webapplication14\\webapplication14\\views\\aboutus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2960B850-6D04-4F79-A0EA-10C87C87E1D8}|WebApplication14\\WebApplication14.csproj|solutionrelative:webapplication14\\views\\aboutus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2960B850-6D04-4F79-A0EA-10C87C87E1D8}|WebApplication14\\WebApplication14.csproj|c:\\users\\admin\\source\\repos\\webapplication14\\webapplication14\\controllers\\aboutus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2960B850-6D04-4F79-A0EA-10C87C87E1D8}|WebApplication14\\WebApplication14.csproj|solutionrelative:webapplication14\\controllers\\aboutus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2960B850-6D04-4F79-A0EA-10C87C87E1D8}|WebApplication14\\WebApplication14.csproj|c:\\users\\admin\\source\\repos\\webapplication14\\webapplication14\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2960B850-6D04-4F79-A0EA-10C87C87E1D8}|WebApplication14\\WebApplication14.csproj|solutionrelative:webapplication14\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2960B850-6D04-4F79-A0EA-10C87C87E1D8}|WebApplication14\\WebApplication14.csproj|c:\\users\\admin\\source\\repos\\webapplication14\\webapplication14\\views\\contacts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2960B850-6D04-4F79-A0EA-10C87C87E1D8}|WebApplication14\\WebApplication14.csproj|solutionrelative:webapplication14\\views\\contacts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2960B850-6D04-4F79-A0EA-10C87C87E1D8}|WebApplication14\\WebApplication14.csproj|c:\\users\\admin\\source\\repos\\webapplication14\\webapplication14\\views\\contacts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2960B850-6D04-4F79-A0EA-10C87C87E1D8}|WebApplication14\\WebApplication14.csproj|solutionrelative:webapplication14\\views\\contacts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Migrations\\20250529061557_SecondCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication14\\Migrations\\20250529061557_SecondCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2960B850-6D04-4F79-A0EA-10C87C87E1D8}|WebApplication14\\WebApplication14.csproj|c:\\users\\admin\\source\\repos\\webapplication14\\webapplication14\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2960B850-6D04-4F79-A0EA-10C87C87E1D8}|WebApplication14\\WebApplication14.csproj|solutionrelative:webapplication14\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2960B850-6D04-4F79-A0EA-10C87C87E1D8}|WebApplication14\\WebApplication14.csproj|c:\\users\\admin\\source\\repos\\webapplication14\\webapplication14\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2960B850-6D04-4F79-A0EA-10C87C87E1D8}|WebApplication14\\WebApplication14.csproj|solutionrelative:webapplication14\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Migrations\\20250529053426_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication14\\Migrations\\20250529053426_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2960B850-6D04-4F79-A0EA-10C87C87E1D8}|WebApplication14\\WebApplication14.csproj|c:\\users\\admin\\source\\repos\\webapplication14\\webapplication14\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2960B850-6D04-4F79-A0EA-10C87C87E1D8}|WebApplication14\\WebApplication14.csproj|solutionrelative:webapplication14\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication14\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication14\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:47:36.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Views\\Aboutus\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication14\\Views\\Aboutus\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Views\\Aboutus\\Index.cshtml",
+              "RelativeToolTip": "WebApplication14\\Views\\Aboutus\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:36:37.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Aboutus.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Controllers\\Aboutus.cs",
+              "RelativeDocumentMoniker": "WebApplication14\\Controllers\\Aboutus.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Controllers\\Aboutus.cs",
+              "RelativeToolTip": "WebApplication14\\Controllers\\Aboutus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T06:24:42.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Views\\Contacts\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApplication14\\Views\\Contacts\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Views\\Contacts\\Delete.cshtml",
+              "RelativeToolTip": "WebApplication14\\Views\\Contacts\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:19:53.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250529061557_SecondCreate.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Migrations\\20250529061557_SecondCreate.cs",
+              "RelativeDocumentMoniker": "WebApplication14\\Migrations\\20250529061557_SecondCreate.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Migrations\\20250529061557_SecondCreate.cs",
+              "RelativeToolTip": "WebApplication14\\Migrations\\20250529061557_SecondCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T06:15:57.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication14\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication14\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwB0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:10:27.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Views\\Contacts\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication14\\Views\\Contacts\\Create.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Views\\Contacts\\Create.cshtml",
+              "RelativeToolTip": "WebApplication14\\Views\\Contacts\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T05:54:59.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "WebApplication14\\Controllers\\ContactsController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "WebApplication14\\Controllers\\ContactsController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAiwD0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:53:26.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "WebApplication14\\Models\\Contact.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Models\\Contact.cs",
+              "RelativeToolTip": "WebApplication14\\Models\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:40:15.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250529053426_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Migrations\\20250529053426_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WebApplication14\\Migrations\\20250529053426_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Migrations\\20250529053426_InitialCreate.cs",
+              "RelativeToolTip": "WebApplication14\\Migrations\\20250529053426_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:34:27.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "WebApplication14\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "WebApplication14\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:33:40.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication14\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WebApplication14\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:31:35.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "WebApplication14\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication14\\WebApplication14\\Models\\Employee.cs",
+              "RelativeToolTip": "WebApplication14\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:31:23.08Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
