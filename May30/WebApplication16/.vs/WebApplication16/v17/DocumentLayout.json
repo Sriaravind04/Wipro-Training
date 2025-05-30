@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\WebApplication16\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5682E04D-E4C4-4604-9835-0428398FF7F8}|WebApplication16\\WebApplication16.csproj|c:\\users\\admin\\source\\repos\\webapplication16\\webapplication16\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5682E04D-E4C4-4604-9835-0428398FF7F8}|WebApplication16\\WebApplication16.csproj|solutionrelative:webapplication16\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication16\\WebApplication16\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "WebApplication16\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication16\\WebApplication16\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "WebApplication16\\Controllers\\ValuesController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwvyoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T10:58:56.346Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
