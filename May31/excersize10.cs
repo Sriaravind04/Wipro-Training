@@ -9,6 +9,8 @@ namespace ConsoleApp16
     class Student
     {
   
+
+  
         public string Name { get; set; }
         public Dictionary<string, int> Marks { get; set; }
 
