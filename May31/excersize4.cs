@@ -1,50 +1,75 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
+using System.Threading;
 
 namespace ConsoleApp16
 {
-    class File
+    class FileReader
     {
-        public void File1()
-        {
-            Console.WriteLine("Reading file 1");
-            Thread.Sleep(2500);
+        private static int totalLines = 0;
+        private static readonly object lockObj = new object();
 
-            Console.WriteLine("File 1 completed");
-        }
-        public void File2()
+        public void ReadFile(string filePath)
         {
-            Console.WriteLine("Reading file 2");
-            Thread.Sleep(2000);
-            Console.WriteLine("File 2 completed");
+            try
+            {
+                int lineCount = 0;
+
+                using (StreamReader reader = new StreamReader(filePath))
+                {
+                    while (reader.ReadLine() != null)
+                    {
+                        lineCount++;
+                    }
+                }
+
+                lock (lockObj)
+                {
+                    totalLines += lineCount;
+                }
+
+                Console.WriteLine($"{Path.GetFileName(filePath)}: {lineCount} lines read.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error reading {filePath}: {ex.Message}");
+            }
         }
-        public void File3()
+
+        public static int GetTotalLines()
         {
-            Console.WriteLine("Reading file 3");
-            Thread.Sleep(1000);
-            Console.WriteLine("File 3 completed");
+            return totalLines;
         }
     }
+
     class Program4
     {
         public static void Main()
         {
-            File obj = new File();
-            Thread thread = new Thread(obj.File1);
-            thread.Start();
+            FileReader fileReader = new FileReader();
 
-            Thread thread1 = new Thread(obj.File2);
-            thread1.Start();
+            // Replace these with actual file paths on your system
+            string file1 = "file1.txt";
+            string file2 = "file2.txt";
+            string file3 = "file3.txt";
 
-            Thread thread2 = new Thread(obj.File3);
-            thread2.Start();
+            // Create threads
+            Thread t1 = new Thread(() => fileReader.ReadFile(file1));
+            Thread t2 = new Thread(() => fileReader.ReadFile(file2));
+            Thread t3 = new Thread(() => fileReader.ReadFile(file3));
 
-            thread.Join();
-            thread1.Join();
-            thread2.Join();
+            // Start threads
+            t1.Start();
+            t2.Start();
+            t3.Start();
+
+            // Wait for threads to finish
+            t1.Join();
+            t2.Join();
+            t3.Join();
+
+            // Print total line count
+            Console.WriteLine($"\n✅ Total lines across all files: {FileReader.GetTotalLines()}");
         }
     }
 }
