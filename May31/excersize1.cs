@@ -11,7 +11,7 @@ class Vehicle {
 interface IRentable {
     void Rent();
 }
-class Car : Vehicle {
+class Car : Vehicle,IRentable {
     public Car(string name, int amount) : base(name, amount) { }
     public void Rent()
     {
@@ -19,7 +19,7 @@ class Car : Vehicle {
         Console.WriteLine("The rent cost per day: " + RentPerDay + " rupees.");
     }
 }
-class Bike : Vehicle
+class Bike : Vehicle,IRentable
 {
     public Bike(string name, int amount) : base(name, amount) { }
     public void Rent()
@@ -29,7 +29,7 @@ class Bike : Vehicle
     }
    
 }
-class Truck : Vehicle
+class Truck : Vehicle, IRentable
 {
     public Truck(string name, int amount) : base(name, amount) { }
     public void Rent()
