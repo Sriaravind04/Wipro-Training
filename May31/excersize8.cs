@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp16
 {
-   
+
+    interface IPrintable
+    {
+        void Print();
+    }
 
     abstract class Invoice
     {
@@ -52,7 +56,7 @@ namespace ConsoleApp16
         }
     }
 
-    class RetailInvoice : Invoice
+    class RetailInvoice : Invoice,IPrintable
     {
         public void Print()
         {
@@ -66,7 +70,7 @@ namespace ConsoleApp16
         }
     }
 
-    class WholesaleInvoice : Invoice
+    class WholesaleInvoice : Invoice, IPrintable
     {
         public void Print()
         {
