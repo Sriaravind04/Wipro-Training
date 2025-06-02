@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8" />
+        <meta name ="viewport" content = "width=device-width, initial-scale=1.0"/>
+        <title>Sri Aravind Website</title>
+        <link rel = "stylesheet" href="style.css"/>
+    </head>
+    <body>
+
+        <header>
+            <h1>Sri Aravind Website</h1>
+            <nav>
+                <a href = "#">Home</a>
+                <a href = "#">About</a>
+                <a href = "#">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class = "intro">
+                <h2>Hello World!</h2>
+                <p>This is a simple website using HTML, CSS, and JavaScript only.</p>
+                <button onclick = "showMessage()">Click Me!</button>
+            </section>
+
+            <section id ="about" class="info">
+                <h2>About this website</h2>
+                <p>this website is build for practice</p>
+            </section>
+
+            <section id="contact" class ="contact-form">
+                <h2>Contact Me</h2>
+                <form onsubmit="submitForm(event)">
+                    <input type = "text" placeholder="Your Name" required/>
+                    <input type = "email" placeholder="Your email" required />
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type = "submit">Send</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 My Website</p>
+        </footer>
+
+        <script src ="script.js"></script>
+    </body>
+</html>
